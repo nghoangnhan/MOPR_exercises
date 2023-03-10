@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name:"
+            android:textSize="20dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/editText_userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="User Name"
+            android:inputType="text"
+            android:textSize="20dp"
+            android:layout_weight="9"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone No.:"
+            android:textSize="20dp"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/editText_phoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Phone No."
+            android:inputType="phone|number"
+            android:textSize="20dp"
+            android:layout_weight="9"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email ID:"
+            android:textSize="20dp"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/editText_emailID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Email ID"
+            android:inputType="textEmailAddress"
+            android:textSize="20dp"
+            android:layout_weight="9"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center|center_horizontal">
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

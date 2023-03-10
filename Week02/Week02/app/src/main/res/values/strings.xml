@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">20110010_NguyenHoangNhan</string>
+    <string name="ect_hint"> ... </string>
+    <string name="to_hint">To</string>
+    <string name="subject_hint">Subject</string>
+    <string name="message_hint">Message</string>
+</resources>

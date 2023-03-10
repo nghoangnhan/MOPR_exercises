@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+<!--Username-->
+    <TextView
+        android:id="@+id/textview_first"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="48dp"
+        android:cursorVisible="false"
+        android:text="Username:"
+        android:textColor="@color/black"
+
+        android:textSize="20dp"
+        android:fontFamily="monospace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_username"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="45dp"
+
+        android:cursorVisible="true"
+        android:gravity="bottom|center_horizontal"
+
+        android:hint="NGUYEN VAN A"
+        android:textSize="20dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+
+        android:inputType="textCapCharacters"
+        android:maxWidth="100dp"
+        android:maxHeight="45dp"
+        android:minWidth="220dp"
+        android:minHeight="220dp"
+
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    Password-->
+    <TextView
+        android:id="@+id/textview_password"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:cursorVisible="false"
+
+        android:text="Password:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:fontFamily="monospace"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="90dp"
+
+        android:cursorVisible="true"
+        android:gravity="center_horizontal"
+
+        android:textSize="20dp"
+        android:fontFamily="monospace"
+        android:inputType="textPassword"
+        android:maxWidth="100dp"
+        android:maxHeight="45dp"
+        android:minWidth="220dp"
+        android:minHeight="220dp"
+
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/red"
+        android:textIsSelectable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    Phone number-->
+    <TextView
+        android:id="@+id/textview_phone"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="150dp"
+        android:cursorVisible="false"
+
+        android:text="Phone:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:fontFamily="monospace"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_phone"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="135dp"
+
+        android:cursorVisible="true"
+        android:gravity="center_horizontal"
+        android:hint="0xxxxxxxxx"
+        android:textSize="20dp"
+        android:fontFamily="monospace"
+
+        android:inputType="phone|number"
+        android:maxWidth="100dp"
+        android:maxHeight="45dp"
+        android:minWidth="220dp"
+        android:minHeight="220dp"
+
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    Birthday-->
+    <TextView
+        android:id="@+id/textview_birthday"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        android:cursorVisible="false"
+
+        android:text="Birthday"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:fontFamily="monospace"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_birthday"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="190dp"
+
+        android:cursorVisible="true"
+        android:gravity="center_horizontal"
+        android:hint="1/1/2000"
+        android:textSize="20dp"
+        android:typeface="monospace"
+
+        android:inputType="datetime"
+        android:maxWidth="100dp"
+        android:maxHeight="45dp"
+        android:minWidth="220dp"
+        android:minHeight="220dp"
+
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview_first"
+        app:layout_constraintVertical_bias="0.902" />
+</androidx.constraintlayout.widget.ConstraintLayout>
